@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.1.0
+Summary: Use Advance time series methods to analyse Ethereum prices
+Author: Ahmad, Trojan, Yves, Patrick
+License: MIT
+License-File: LICENSE

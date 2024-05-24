@@ -1,0 +1,28 @@
+# Setup instructions for the Conda environment.
+# To create the environment, run `conda env create -f environment.yml`
+# To activate this environment, run `conda activate ATSF_PROJECT_ETH`
+# To update an existing environment, run `conda env update --name ATSF_PROJECT_ETH --file environment.yml`
+# maybe run `conda update --all` to let Conda attempt to resolve any potential inconsistencies in the environment after installing using pip.
+
+name: ATSF_PROJECT_ETH
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10.0
+  - numpy=1.25.2
+  - pandas=1.5.3
+  - matplotlib=3.7.1
+  - scikit-learn=1.2.2
+  - pyarrow=14.0.2
+  - pip
+  - ipykernel
+  - pip:
+    - -e .  # this is equivalent to `pip install -e .` and installs the package in editable mode
+    # - torch
+    - tensorflow
+    - tensorflow-macos
+    - tqdm
+    - tensorflow-metal
+    # - ray[tune]
+
