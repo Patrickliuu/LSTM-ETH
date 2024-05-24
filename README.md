@@ -1,4 +1,4 @@
-ATSF_PROJECT_ETH
+Advanced time series prediction project
 ==============================
 
 Use Advance time series methods to analyse Ethereum prices
